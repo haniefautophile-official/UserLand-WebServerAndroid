@@ -41,7 +41,7 @@ Lanjut installasi<br>
 > (Ketik yes, lalu masukan password yang sudah anda buat di userland)
 ```
 => hostname
-=> su usrland
+=> su userland
 ```
 > (Untuk pindah ke userland dari termux)
 ```
