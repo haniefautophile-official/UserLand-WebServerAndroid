@@ -68,14 +68,14 @@ Kemudian ketik kode sederhana ini untuk uji coba:
 ```
 <h1>Test Web Server Android Redmi Note 6 Pro</h1>
 ```
-> Setelah itu klik ctrl + x + y dan enter untuk menyimpan.
-> Setelah itu cek di browser dengan memasukan ip kita dengan port 8080.
-> Contoh: 192.168.xxx:8080
-> Maka lihat hasilnya.
-> Kemudian onlinenkan server anda agar bisa di gunakan banyak orang dengan masuk ke situs ngrox, pilih bagian logo pingwin, lalu copy semua kode di apt
-> <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-09-07-946_com.android.chrome.jpg">
-<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-20-46-920_com.termux.jpg">
-> Tunggu installasi sampai selesai. Dan jika sudah selesai maka lanjut ke kode selanjutnya dari ngrok:
+> Setelah itu klik ctrl + x + y dan enter untuk menyimpan.<br>
+> Setelah itu cek di browser dengan memasukan ip kita dengan port 8080.<br>
+> Contoh: 192.168.xxx:8080<br>
+> Maka lihat hasilnya.<br>
+> Kemudian onlinenkan server anda agar bisa di gunakan banyak orang dengan masuk ke situs ngrox, pilih bagian logo pingwin, lalu copy semua kode di apt<br>
+> <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-09-07-946_com.android.chrome.jpg"><br>
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-20-46-920_com.termux.jpg"><br>
+> Tunggu installasi sampai selesai. Dan jika sudah selesai maka lanjut ke kode selanjutnya dari ngrok:<br>
 ```
 => ngrok config add-authtoken xxxxxxx
 ```
@@ -83,11 +83,11 @@ Kemudian ketik kode sederhana ini untuk uji coba:
 ```
 => ngrok http 8080
 ```
-> Maka akan berjalan seperti ini:
+> Maka akan berjalan seperti ini:<br>
 > <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-34-35-171_com.termux.jpg">
-> Lalu copy https sampai seperti gambar di atas
-> Lalu copy di browser.
-<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-34-24-555_com.android.chrome.jpg">
+> Lalu copy https sampai seperti gambar di atas<br>
+> Lalu copy di browser.<br>
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-34-24-555_com.android.chrome.jpg"><br>
 
 </details>
 
