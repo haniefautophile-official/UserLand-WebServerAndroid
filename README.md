@@ -13,10 +13,10 @@
 => apt update ; apt upgrade -y ; apt install neofetch -y ; apt install nano -y ; apt install nginx -y ; service nginx status
 => nano /etc/nginx/sites-available/default
 ```
-> Cari tulisan listen, kemudian ganti angka 80 menjadi 8080<br>
-<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-17-29-45-892_tech.ula.jpg">
-> Setelah itu, simpan dengan menekan tombol ctrl + x + y lalu enter<br>
-> Lanjut installasi
+<p> Cari tulisan listen, kemudian ganti angka 80 menjadi 8080<br>
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-17-29-45-892_tech.ula.jpg"><br>
+Setelah itu, simpan dengan menekan tombol ctrl + x + y lalu enter<br>
+Lanjut installasi<br>
 ```
 => service nginx restart
 => cd /var/www/html
