@@ -14,7 +14,7 @@
 => nano /etc/nginx/sites-available/default
 ```
 > Cari tulisan listen, kemudian ganti angka 80 menjadi 8080c<br>
-<img src="ss/images/ss/Screenshot_2025-01-18-17-29-45-892_tech.ula.jpg">
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-17-29-45-892_tech.ula.jpg">
 > Setelah itu, simpan dengan menekan tombol ctrl + x + y lalu enter<br>
 > Lanjut installasi
 ```
