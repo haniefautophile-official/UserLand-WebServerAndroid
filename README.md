@@ -24,15 +24,15 @@ Lanjut installasi<br>
 => rm -f index.nginx-debian.html
 => nano index.html
 ```
-> Tulis sebagai contoh atau anda bisa mengarangnya sendiri
-> Example:
-> Welcome to Web Server Android
-> Lalu simpan dengan menekan tombol ctrl + x + y lalu enter
-> Next installasi paert 2
-> Buka termux dan ketik atau copy semua kode ini:
-=> apt update ; apt upgrade -y ; pkg install openssh nmap
-=> ssh root@192.168.xxx (Ip hp anda)
-> Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.
+> Tulis sebagai contoh atau anda bisa mengarangnya sendiri<br>
+> Example:<br>
+> Welcome to Web Server Android<br>
+> Lalu simpan dengan menekan tombol ctrl + x + y lalu enter<br>
+> Next installasi paert 2<br>
+> Buka termux dan ketik atau copy semua kode ini:<br>
+=> apt update ; apt upgrade -y ; pkg install openssh nmap<br>
+=> ssh root@192.168.xxx (Ip hp anda)<br>
+> Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.<br>
 ```
 => ssh root@192.168.xxx -p 2022
 ```
