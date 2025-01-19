@@ -13,7 +13,7 @@
 => apt update ; apt upgrade -y ; apt install neofetch -y ; apt install nano -y ; apt install nginx -y ; service nginx status
 => nano /etc/nginx/sites-available/default
 ```
-> Cari tulisan listen, kemudian ganti angka 80 menjadi 8080c<br>
+> Cari tulisan listen, kemudian ganti angka 80 menjadi 8080<br>
 <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-17-29-45-892_tech.ula.jpg">
 > Setelah itu, simpan dengan menekan tombol ctrl + x + y lalu enter<br>
 > Lanjut installasi
@@ -24,14 +24,20 @@
 => rm -f index.nginx-debian.html
 => nano index.html
 ```
-> Tulis seperti sevagai contoh atau anda bisa mengarangnya sendiri
-> Example: <h1>Welcome to Web Server Android</h1>
+> Tulis sebagai contoh atau anda bisa mengarangnya sendiri
+> Example:
+```
+<h1>Welcome to Web Server Android</h1>
+```
 > Lalu simpan dengan menekan tombol ctrl + x + y lalu enter
 > Next installasi paert 2
 > Buka termux dan ketik atau copy semua kode ini:
 ```bash
 => apt update ; apt upgrade -y ; pkg install openssh nmap
 => ssh root@192.168.xxx (Ip hp anda)
+```
+> Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.
+```
 => ssh root@192.168.xxx -p 2022
 ```
 > (Ketik yes, lalu masukan password yang sudah anda buat di userland)
@@ -44,6 +50,7 @@
 => service nginx status
 ```
 > Jika anda melihat nginx status running itu berarti server anda sedang berjalan.
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-14-56-220_com.termux.jpg">
 ```
 => neofetch
 ```
@@ -53,16 +60,38 @@
 ```
 > Untuk menambahkan userbaru  (Bebas mau namai apa terserah anda dan user harus harus huruf kecil semua)
 > Setelah itu anda di perintah buat password di user baru dan konfirmasi password, isi identitas anda atau bisa anda isi hanya di pertama dan kosongkan sisanya, lalu enter, kemudian ketik y dan enter.
-
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-17-32-017_com.termux.jpg">
+> Cek user apakah user anda telah aktif atau tidak dengan mengetik:
 ```
+su redminote6pro
+nano /var/www/html/index.html
+```
+Kemudian ketik kode sederhana ini untuk uji coba:
+```
+<h1>Test Web Server Android Redmi Note 6 Pro</h1>
+```
+> Setelah itu klik ctrl + x + y dan enter untuk menyimpan.
+> Setelah itu cek di browser dengan memasukan ip kita dengan port 8080.
+> Contoh: 192.168.xxx:8080
+> Maka lihat hasilnya.
+> Kemudian onlinenkan server anda agar bisa di gunakan banyak orang dengan masuk ke situs ngrox, pilih bagian logo pingwin, lalu copy semua kode di apt
+> <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-09-07-946_com.android.chrome.jpg">
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-20-46-920_com.termux.jpg">
+> Tunggu installasi sampai selesai. Dan jika sudah selesai maka lanjut ke kode selanjutnya dari ngrok:
+```
+=> ngrok config add-authtoken xxxxxxx
+```
+> Jalankan web yang sudah anda buat dengan mengetik:
+```
+=> ngrok http 8080
+```
+> Maka akan berjalan seperti ini:
+> <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-34-35-171_com.termux.jpg">
+> Lalu copy https sampai seperti gambar di atas
+> Lalu copy di browser.
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-34-24-555_com.android.chrome.jpg">
 
 </details>
 
-depencies:<br>
-> lzma<br>
-> vim<br>
-> neovim<br>
-> coreutils<br>
-> ossp-uuid<br>
-> ncurses-utils<br>
-> nodejs<br>
+Selamat anda sudah mempunyai server web pribadi tanpa beli hosting<br>
+
