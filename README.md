@@ -8,7 +8,7 @@
 > Install di ubuntu userland, copy semua kode ini dan paste di ubuntu
   
 ```bash
-=> su lalu enter
+=> sudo su lalu enter
 => passwd lalu enter (Buat password dan konfirmasi password) Password tidak akan terlihat
 => apt update ; apt upgrade -y ; apt install neofetch -y ; apt install nano -y ; apt install nginx -y ; service nginx status
 => nano /etc/nginx/sites-available/default
