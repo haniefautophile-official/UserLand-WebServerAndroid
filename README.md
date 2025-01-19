@@ -13,7 +13,7 @@
 => apt update ; apt upgrade -y ; apt install neofetch -y ; apt install nano -y ; apt install nginx -y ; service nginx status
 => nano /etc/nginx/sites-available/default
 ```
-<p> Cari tulisan listen, kemudian ganti angka 80 menjadi 8080<br>
+Cari tulisan listen, kemudian ganti angka 80 menjadi 8080<br>
 <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-17-29-45-892_tech.ula.jpg"><br>
 Setelah itu, simpan dengan menekan tombol ctrl + x + y lalu enter<br>
 Lanjut installasi<br>
@@ -26,16 +26,12 @@ Lanjut installasi<br>
 ```
 > Tulis sebagai contoh atau anda bisa mengarangnya sendiri
 > Example:
-```
-<h1>Welcome to Web Server Android</h1>
-```
+> Welcome to Web Server Android
 > Lalu simpan dengan menekan tombol ctrl + x + y lalu enter
 > Next installasi paert 2
 > Buka termux dan ketik atau copy semua kode ini:
-```bash
 => apt update ; apt upgrade -y ; pkg install openssh nmap
 => ssh root@192.168.xxx (Ip hp anda)
-```
 > Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.
 ```
 => ssh root@192.168.xxx -p 2022
