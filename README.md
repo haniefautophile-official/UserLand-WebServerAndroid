@@ -47,8 +47,8 @@ Lanjut installasi<br>
 ```
 => service nginx status
 ```
-> Jika anda melihat nginx status running itu berarti server anda sedang berjalan.
-<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-14-56-220_com.termux.jpg">
+> Jika anda melihat nginx status running itu berarti server anda sedang berjalan.<br>
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-14-56-220_com.termux.jpg"><br>
 ```
 => neofetch
 ```
