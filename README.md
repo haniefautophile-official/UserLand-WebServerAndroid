@@ -28,13 +28,13 @@ Lanjut installasi<br>
 > Example:<br>
 > Welcome to Web Server Android<br>
 > Lalu simpan dengan menekan tombol ctrl + x + y lalu enter<br>
-> Next installasi paert 2<br>
+> Next installasi part 2<br>
 > Buka termux dan ketik atau copy semua kode ini:<br>
 ```
 => apt update ; apt upgrade -y ; pkg install openssh nmap
 => ssh root@192.168.xxx (Ip hp anda)
 ```
-> Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.
+> Untuk mengetahui alamat ip anda buka ponsel, cari tentang ponsel, lihat keseleuruhan spesifikasi. Ada di alamat address.
 ```
 => ssh root@192.168.xxx -p 2022
 ```
