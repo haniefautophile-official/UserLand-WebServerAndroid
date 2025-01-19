@@ -61,8 +61,8 @@ Lanjut installasi<br>
 <img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-17-32-017_com.termux.jpg"><br>
 > Cek user apakah user anda telah aktif atau tidak dengan mengetik:<br>
 ```
-su redminote6pro
-nano /var/www/html/index.html
+=> su redminote6pro
+=> nano /var/www/html/index.html
 ```
 Kemudian ketik kode sederhana ini untuk uji coba:
 ```
