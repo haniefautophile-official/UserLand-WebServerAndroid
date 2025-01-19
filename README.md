@@ -30,9 +30,11 @@ Lanjut installasi<br>
 > Lalu simpan dengan menekan tombol ctrl + x + y lalu enter<br>
 > Next installasi paert 2<br>
 > Buka termux dan ketik atau copy semua kode ini:<br>
-=> apt update ; apt upgrade -y ; pkg install openssh nmap<br>
-=> ssh root@192.168.xxx (Ip hp anda)<br>
-> Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.<br>
+```
+=> apt update ; apt upgrade -y ; pkg install openssh nmap
+=> ssh root@192.168.xxx (Ip hp anda)
+```
+> Untuk mengetahui alamat ip anda buka ponsel, cari tentang pomsel, lihat keseleuruhan spesifikasi. Ada di alamat address.
 ```
 => ssh root@192.168.xxx -p 2022
 ```
@@ -54,10 +56,10 @@ Lanjut installasi<br>
 ```
 => sudo adduser redminote6pro
 ```
-> Untuk menambahkan userbaru  (Bebas mau namai apa terserah anda dan user harus harus huruf kecil semua)
-> Setelah itu anda di perintah buat password di user baru dan konfirmasi password, isi identitas anda atau bisa anda isi hanya di pertama dan kosongkan sisanya, lalu enter, kemudian ketik y dan enter.
-<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-17-32-017_com.termux.jpg">
-> Cek user apakah user anda telah aktif atau tidak dengan mengetik:
+> Untuk menambahkan userbaru  (Bebas mau namai apa terserah anda dan user harus harus huruf kecil semua)<br>
+> Setelah itu anda di perintah buat password di user baru dan konfirmasi password, isi identitas anda atau bisa anda isi hanya di pertama dan kosongkan sisanya, lalu enter, kemudian ketik y dan enter.<br>
+<img src="https://github.com/haniefautophile-official/UserLand-WebServerAndroid/blob/main/ss/Screenshot_2025-01-18-18-17-32-017_com.termux.jpg"><br>
+> Cek user apakah user anda telah aktif atau tidak dengan mengetik:<br>
 ```
 su redminote6pro
 nano /var/www/html/index.html
