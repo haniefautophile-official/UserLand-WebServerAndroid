@@ -3,8 +3,8 @@
 <details open>
   <summary><strong><h2>How to Install Part 1</h2></strong></summary>
   
-  <li>langkah pertama download aplikasi userland di playstore, lalu buka dan pilih ubuntu</li>
-  
+  <li>langkah pertama download aplikasi userland di playstore dan termux di frdoid, lalu buka dan pilih ubuntu</li>
+ 
 > Install di ubuntu userland, copy semua kode ini dan paste di ubuntu
   
 ```bash
